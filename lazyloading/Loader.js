@@ -1,3 +1,9 @@
+/**
+ * This is a singleton class the works in the middle between bootstrap and Application.
+ *
+ * If required as first class in the application is able to read Application packages configuration
+ * and load them from dedicated build file before application startup.
+ */
 Ext.define('Ibuildings.lazyloading.Loader', {
     singleton: true,
 
